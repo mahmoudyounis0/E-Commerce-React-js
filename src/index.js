@@ -1,13 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./index.css";
+import AuthContextProvider from "./context/AuthContext";
+import StartsgenratorProvider from "./context/Startsgenrator";
+import WishlistContextProvider from "./context/WishlistContext";
+import CartContextProvider from "./context/CartContext";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <AuthContextProvider>
+      <CartContextProvider>
+        <WishlistContextProvider>
+          <StartsgenratorProvider>
+            <App />
+          </StartsgenratorProvider>
+        </WishlistContextProvider>
+      </CartContextProvider>
+    </AuthContextProvider>
   </React.StrictMode>
 );
 

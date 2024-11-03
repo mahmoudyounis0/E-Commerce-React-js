@@ -1,0 +1,7 @@
+  .item img {
+    height: 200px !important;
+    object-fit: cover;
+  }
+  .item {
+    height: 280px !important;
+  }

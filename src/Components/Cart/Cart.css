@@ -1,0 +1,58 @@
+.orderSummaryContainer * {
+  font-size: 16px !important;
+}
+@media screen and (max-width: 1080px) {
+  .orderSummaryContainer * {
+    font-size: 14px !important;
+  }
+  .orderSummaryContainer h5 {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h5.orderSummary {
+    font-size: 1rem;
+  }
+
+  .subtotal,
+  .checkout {
+    align-items: flex-start;
+  }
+
+  .subtotal p,
+  .checkout p {
+    margin-bottom: 0.5rem;
+  }
+  .cart-text {
+    & .cart-text-h5 {
+      font-size: 16px !important;
+    }
+    & i{
+      font-size: 14px !important;
+    }
+    & .cart-text-cont{
+      display: none !important;
+    }
+    & .cart-head{
+      width: 100% !important;
+      justify-content: space-between !important;
+    }
+  }
+}
+
+/* For screens smaller than 576px (mobile devices) */
+@media (max-width: 576px) {
+  .orderSummaryContainer {
+    padding: 0.25rem;
+    box-shadow: none; /* Remove shadow for mobile */
+  }
+
+  .orderSummary h5 {
+    font-size: 0.9rem; /* Further adjust font size */
+  }
+
+  .btn-checkout button {
+    font-size: 0.9rem; /* Smaller button font size */
+  }
+}

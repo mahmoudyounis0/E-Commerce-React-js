@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+    .aside-nav {
+      max-width: 250px;
+      padding: 10px;
+    }
+    .aside-nav h4 {
+      font-size: 1.5rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .aside-nav {
+      max-width: 100%;
+      padding: 8px;
+    }
+  
+    .aside-nav h4 {
+      font-size: 16px !important;
+      margin-bottom: 10px !important;
+    }
+  
+    .nav-link {
+      text-align: center;
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .aside-nav {
+      padding: 6px;
+    }
+  
+    .aside-nav h4 {
+      font-size: 1rem;
+    }
+  
+    .nav-link {
+      font-size: 0.8rem;
+      padding: 0.4rem 0;
+    }
+  }

@@ -1,0 +1,19 @@
+.trash{
+    cursor: pointer;
+}
+.recently-viewed-container {
+    overflow-x: auto;
+    display: flex;
+    scroll-behavior: smooth;
+    padding: 20px ;
+    white-space: nowrap;
+    cursor: pointer;
+}
+  .recently-viewed-items {
+    display: inline-flex; 
+    height: fit-content !important;
+  }
+  .recently-viewed-container::-webkit-scrollbar {
+    display: none;
+  }
+  

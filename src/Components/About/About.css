@@ -1,0 +1,35 @@
+.crd {
+  /* & i.star{
+        color: var(--rating-color) !important;
+    }
+    & .truck{
+        color: var(--main-color);
+    } */
+  & p {
+    color: var(--dark-color) !important;
+  }
+  box-shadow: var(--shadow);
+}
+.item {
+  box-shadow: var(--shadow);
+}
+/* For tablets and small screens  */
+@media screen and (max-width: 1200px) {
+    .crd {
+        height: 180px !important;
+      }
+  }
+@media screen and (max-width: 992px) {
+    .crd {
+        height: 220px !important;
+      }
+  }
+  @media screen and (max-width: 768px) {
+    .crd {
+        height: fit-content !important;
+      }
+  }
+  
+  /* For mobile devices (width up to 480px) */
+
+    

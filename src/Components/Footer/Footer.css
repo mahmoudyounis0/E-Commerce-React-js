@@ -1,0 +1,154 @@
+/* Footer.css */
+
+footer {
+    /* background-color: var(--bg-main-light); */
+    padding: 2rem 0;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .sContainer {
+    padding: 0 10px;
+  }
+  
+  .logo {
+    width: 50px !important;
+  }
+  
+  .btn {
+    padding: 5px 10px !important;
+  }
+  
+  .spec {
+    width: 120px !important;
+  }
+  
+  h5 {
+    margin: 0;
+  }
+  
+  input[type="email"] {
+    height: 2.5rem;
+    width: 75%;
+  }
+  
+  button {
+    height: 2.5rem;
+    padding: 0 1rem;
+  }
+  
+  .getApp {
+    margin-bottom: 1rem;
+  }
+  .py{
+    width: fit-content !important;
+  }
+
+/* Base styles */
+
+/* For tablets and small screens (up to 768px) */
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 0 1rem; /* Adjust container padding for smaller screens */
+    }
+  
+    .logo {
+      width: 40px; /* Reduce logo size for smaller screens */
+    }
+  
+    .btn {
+      padding: 4px 8px; /* Adjust button padding */
+      width: 100%;
+    }
+  
+    .spec {
+      width: 80px; 
+    }
+  
+    .getApp {
+      flex-direction: column; 
+    }
+  
+    .getApp input[type="email"] {
+      width: 100% !important; /* Full width for input */
+      margin-bottom: 0.5rem; /* Add space between input and button */
+    }
+  
+    .payment-partners,
+    .GetDelv{
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+      justify-content: flex-start;
+    }
+  
+    .payment-partners i,
+    .GetDelv img {
+      margin-bottom: 0.5rem;
+    }
+    .last{
+        flex-direction: column;
+    }
+  }
+  
+  /* For mobile devices (width up to 480px) */
+  @media screen and (max-width: 480px) {
+    .logo {
+      width: 30px; /* Further reduce logo size */
+    }
+  
+    .btn {
+      padding: 3px 6px; /* Further adjust button padding */
+    }
+  
+    .spec {
+      width: 70px; /* Further reduce image size */
+    }
+  
+    .getApp {
+      margin: 0; /* Remove margin for better spacing */
+    }
+  
+    .payment-partners h6,
+    .GetDelvh6 {
+      font-size: 0.875rem; /* Adjust font size */
+    }
+  
+    .payment-partners i,
+    .GetDelv img {
+      font-size: 1.5rem; 
+    }
+  }
+  
+  /* For very small mobile devices (width up to 320px) */
+  @media screen and (max-width: 320px) {
+    .logo {
+      width: 25px; /* Further reduce logo size */
+    }
+  
+    .btn {
+      padding: 2px 4px; /* Further adjust button padding */
+    }
+  
+    .spec {
+      width: 60px; /* Further reduce image size */
+    }
+  
+    .payment-partners i,
+    .GetDelv img {
+      font-size: 1.25rem; /* Further adjust icon size */
+    }
+  
+    .getApp {
+      margin: 0; /* Ensure no extra margin */
+    }
+  
+    .payment-partners,
+    .GetDelv{
+      font-size: 0.75rem; /* Adjust font size for very small screens */
+    }
+  }
+    
