@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/E-commerce-react-js/static/css/main.5f13d155.css",
+    "main.js": "/E-commerce-react-js/static/js/main.ec5fca89.js",
+    "static/js/453.0b71bf06.chunk.js": "/E-commerce-react-js/static/js/453.0b71bf06.chunk.js",
+    "static/media/pexels-tima-miroshnichenko-6169593.jpg": "/E-commerce-react-js/static/media/pexels-tima-miroshnichenko-6169593.bac11c04b3bc65fd9276.jpg",
+    "static/media/slide 1.jpg": "/E-commerce-react-js/static/media/slide 1.37fae14bf6d0a7afb2e5.jpg",
+    "static/media/slide 3.jpeg": "/E-commerce-react-js/static/media/slide 3.69e5e73301d9616ba8c6.jpeg",
+    "static/media/slide 2.jpeg": "/E-commerce-react-js/static/media/slide 2.3e2f37267e1d1d5c8c75.jpeg",
+    "static/media/ForgotPass.png": "/E-commerce-react-js/static/media/ForgotPass.991c708a030601104f55.png",
+    "static/media/slide 4.jpg": "/E-commerce-react-js/static/media/slide 4.d875b6f41b66bd2284f0.jpg",
+    "static/media/fa-solid-900.ttf": "/E-commerce-react-js/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/E-commerce-react-js/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/success.png": "/E-commerce-react-js/static/media/success.7c33906f22dc4682cc86.png",
+    "static/media/fa-solid-900.woff2": "/E-commerce-react-js/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/E-commerce-react-js/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/error.svg": "/E-commerce-react-js/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/bat.png": "/E-commerce-react-js/static/media/bat.1009dbfcc5193faf58c8.png",
+    "static/media/google.png": "/E-commerce-react-js/static/media/google.998ee3257af870642833.png",
+    "static/media/apple.png": "/E-commerce-react-js/static/media/apple.d330a1502936ee78aadc.png",
+    "static/media/fa-regular-400.ttf": "/E-commerce-react-js/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/E-commerce-react-js/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/E-commerce-react-js/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/E-commerce-react-js/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/E-commerce-react-js/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-commerce-react-js/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-commerce-react-js/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-commerce-react-js/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-commerce-react-js/index.html",
+    "main.5f13d155.css.map": "/E-commerce-react-js/static/css/main.5f13d155.css.map",
+    "main.ec5fca89.js.map": "/E-commerce-react-js/static/js/main.ec5fca89.js.map",
+    "453.0b71bf06.chunk.js.map": "/E-commerce-react-js/static/js/453.0b71bf06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f13d155.css",
+    "static/js/main.ec5fca89.js"
+  ]
+}
